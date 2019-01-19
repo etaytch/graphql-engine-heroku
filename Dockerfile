@@ -18,6 +18,7 @@ CMD graphql-engine \
     serve \
     --server-port $PORT \
     --access-key $HASURA_GRAPHQL_ACCESS_KEY \
+    --jwt-secret $HASURA_GRAPHQL_JWT_SECRET \
     --auth-hook https://equable-prawn.glitch.me/ 
 #
 # Console can be enable/disabled by the env var HASURA_GRAPHQL_ENABLE_CONSOLE
