@@ -17,7 +17,7 @@ CMD graphql-engine \
     --database-url $DATABASE_URL \
     serve \
     --server-port $PORT \
-    --access-key $HASURA_GRAPHQL_ACCESS_KEY \
-    --jwt-secret $HASURA_GRAPHQL_JWT_SECRET 
+    --access-key $HASURA_GRAPHQL_ACCESS_KEY
+    #--jwt-secret $HASURA_GRAPHQL_JWT_SECRET 
 #
 # Console can be enable/disabled by the env var HASURA_GRAPHQL_ENABLE_CONSOLE
